@@ -14,11 +14,17 @@ people:
   position: "We are all in this together."
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/soelu
     - title: facebook
-      url: #
+      url: https://www.facebook.com/soelu412
     - title: stack-overflow
-      url: #
+      url: https://stackoverflow.com/users/767422/soelu
+    - title: linkedin
+      url: https://www.linkedin.com/in/soeren-lubitz-8040644b/
+    - title: github
+      url: http://github.com/soelu
+    - title: 500px
+      url: https://500px.com/soelu
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
