@@ -11,11 +11,15 @@
     {% include bio.html %}
     {% include portfolio_grid.html %}
     {% include team.html %}
-    {% include clients.html %}
+    {% comment %}{% include clients.html %}{% endcomment %}
     {% include contact.html %}
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}
+    {% if jekyll.environment == 'develop' %} 
 
+    {% else %}
+        {% include analytics.html %}
+    {% endif %}
     </body>
 </html>
