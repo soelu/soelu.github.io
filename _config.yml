@@ -15,8 +15,6 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/soelu
-    - title: facebook
-      url: https://www.facebook.com/soelu412
     - title: stack-overflow
       url: https://stackoverflow.com/users/767422/soelu
     - title: linkedin
@@ -30,8 +28,6 @@ people:
 social:
   - title: twitter
     url: https://twitter.com/soelu
-  - title: facebook
-    url: https://www.facebook.com/soelu412
   - title: stack-overflow
     url: https://stackoverflow.com/users/767422/soelu
   - title: linkedin
@@ -40,6 +36,9 @@ social:
     url: http://github.com/soelu
   - title: 500px
     url: https://500px.com/soelu
+  - title: envelope
+    url: mailto:soeren.lubitz@gmail.com
+
 
 # Postal address (add as many lines as necessary)
 address:

@@ -1,0 +1,15 @@
+---
+modal-id: 1
+date: 2017-01-01
+title: Solarwatt Energy Portal
+subtitle: Team Lead / Architect
+img: sep.png
+thumbnail: sep-thumbnail.png
+alt: Screenshot of the Solarwatt Energy Portal
+project-date: 2013-2015
+client: Solarwatt
+client-link: http://www.solarwatt.de
+category: Team Lead / Architect
+description: A web portal for monitoring and managing energy consumption and production at home for the Dresden based company SOLARWATT
+
+---
