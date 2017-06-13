@@ -7,8 +7,9 @@
                     <h3 class="section-subheading text-muted">Interesting milestones I grew from</h3>
                 </div>
             </div>
-            <div class="row">
             {% for post in site.posts %}
+            {% cycle 'add row' : '<div class="row">', nil, nil %}
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -20,9 +21,10 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                        <p class="text-muted">{{ post.role }}</p>
                     </div>
                 </div>
+            {% cycle 'end row' : nil, nil, '</div>' %}
             {% endfor %}
             </div>
         </div>

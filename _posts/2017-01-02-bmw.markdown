@@ -1,0 +1,15 @@
+---
+modal-id: 2
+date: 2017-03-01
+title: BMW - Digital Charging Services
+role: Team Lead / Architect / Product Owner
+img: dcs.png
+thumbnail: dcs-thumbnail.png
+alt: Digital Charging Sevices UI Example
+project-date: 2015-2017
+client: BMW
+client-link: https://charging.bmwgroup.com/
+category: Kiwigrid
+description: An intelligent charging solution for BMW electric cars. My team was responsible for providing the processed data and incentive for creation of optimized charging plans. We also provided historic data and savings calculations for the UI.
+
+---

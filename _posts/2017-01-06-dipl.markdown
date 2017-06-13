@@ -1,0 +1,15 @@
+---
+modal-id: 6
+date: 2012-11-01
+title: Diploma Thesis
+role: Developer / Customer Contact
+img: dipl.png
+thumbnail: dipl-thumbnail.png
+alt: Projekt Steg
+project-date: 2012
+client: TU Dresden (Link to Thesis)
+client-link: https://www.dropbox.com/s/1bizwllp7w3c1i2/Diplom_Lubitz.pdf?dl=1
+category: Student
+description: The title of the thesis was "Interaction- and Visualization Concepts for High-Density Information - An Approach for the Apple iPad". 
+
+---

@@ -1,3 +1,18 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
-{{ content }}
+
+#skills .row-header {
+	padding-top: 50px;
+}
+
+#skills .row {
+	padding-bottom: 50px;
+}
+
+.bg-dark {
+	background: #fcfcfc
+}
+
+.bg-darker {
+	background: #fafafa
+}

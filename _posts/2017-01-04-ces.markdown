@@ -1,0 +1,15 @@
+---
+modal-id: 4
+date: 2015-01-04
+title: Smart Charging Showcase with BMW and SOLARWATT @ CES
+role: Team Lead / Architect / On-Site Support
+img: ces.jpg
+thumbnail: ces-thumbnail.jpg
+alt: CES 2015
+project-date: January 2015
+client: BMW and SOLARWATT
+client-link: https://www.press.bmwgroup.com/global/article/detail/T0199262EN/bmw-at-the-consumer-electronics-show-ces-2015-in-las-vegas?language=en
+category: Kiwigrid
+description: For a joint showcase of SOLARWATT and BMW my team created a prototype to introduce intelligent charging at the CES 2015.
+
+---

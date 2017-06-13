@@ -1,37 +1,69 @@
 <!-- Skills Section -->
     <section id="skills">
-        <div class="container">
+        <!-- <div class="container"> -->
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Skills</h2>
-                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                    <h2 class="section-heading">Product Skills</h2>
+                    <h3 class="section-subheading text-muted">These help me to motivate the team and create a great product</h3>
                 </div>
             </div>
-            <div class="row text-center">
+            {% for skill in site.skills.product %}
+                {% cycle 'add row' : '<div class="row text-center">', nil, nil %}
+
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
+                        <i class="fa {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Product Ownership</h4>
-                    <p class="text-muted">I cherish well made products and strive to create the best products possible. Involving the team and all stakeholders constantly and fully plays a big part for that success.</p>
+                    <h4 class="service-heading">{{ skill.name }}</h4>
+                    <p class="text-muted">{{ skill.details }}</p>
                 </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-refresh fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Agile Mindset</h4>
-                    <p class="text-muted">The world is changing so fast, that in order to keep up, we need to adapt. Long planning and evaluation is simply not possible most of time, not the less because information needed is not available. Try-Fail-Learn.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-forward fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Practical Thinking</h4>
-                    <p class="text-muted">It is always good the take a step back and try to look at a challenge at hand from a new perspective.  Often, this leads to a practical and fitting solution.</p>
+
+                {% cycle 'end row' : nil, nil, '</div>' %}
+
+            {% endfor %}
+            <div class="bg-light-gray">
+            <div class="row row-header">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Technical Skills</h2>
+                    <h3 class="section-subheading text-muted">These help me to understand and contribute to the development</h3>
                 </div>
             </div>
-        </div>
+            {% for skill in site.skills.tech %}
+                {% cycle 'add row' : '<div class="row text-center">', nil, nil %}
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">{{ skill.name }}</h4>
+                    <p class="text-muted">{{ skill.details }}</p>
+                </div>
+
+                {% cycle 'end row' : nil, nil, '</div>' %}
+
+            {% endfor %}
+            </div>
+            <div class="row row-header">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Interests</h2>
+                    <h3 class="section-subheading text-muted">These keep me going and curious</h3>
+                </div>
+            </div>
+            {% for skill in site.skills.interest %}
+                {% cycle 'add row' : '<div class="row text-center">', nil, nil %}
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">{{ skill.name }}</h4>
+                    <p class="text-muted">{{ skill.details }}</p>
+                </div>
+
+                {% cycle 'end row' : nil, nil, '</div>' %}
+
+            {% endfor %}
     </section>

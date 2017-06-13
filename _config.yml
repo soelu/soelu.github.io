@@ -39,6 +39,48 @@ social:
   - title: envelope
     url: mailto:soeren.lubitz@gmail.com
 
+skills:
+  product:
+    - name: Product Ownership
+      details: I cherish well made products and strive to create the best products possible. Involving the team and all stakeholders constantly and fully plays a big part for that success.
+      fa-icon: fa-cube
+    - name: Agile Mindset
+      details: The world is changing so fast, that in order to keep up, we need to adapt. Long planning and evaluation is simply not possible most of time, not the less because information needed is not available. Try-Fail-Learn.
+      fa-icon: fa-trello
+    - name: Practical Thinking
+      details: It is always good the take a step back and try to look at a challenge at hand from a new perspective.  Often, this leads to a practical and fitting solution.
+      fa-icon: fa-check-square-o
+  tech:
+    - name: Back-end Development
+      details: Java, Node.js, PHP, Ruby on Rails
+      fa-icon: fa-cog
+    - name: Databases
+      details: MySQL, SQLite, Neo4J, InfluxDB, Oracle
+      fa-icon: fa-database
+    - name: RESTful API Design
+      details: Swagger, SpringBoot, PHP-Symphony
+      fa-icon: fa-cogs
+    - name: CI/CD
+      details: Jenkins, Git, Pipelines, Docker
+      fa-icon: fa-code
+    - name: DevOps
+      details: Docker, Grafana, Github, Linux, macOS, Windows
+      fa-icon: fa-terminal
+    - name: Front-end Development
+      details: Javascript, AngularJS, React, HTML5, CSS, Bootstrap
+      fa-icon: fa-cog
+  interest:
+    - name: Photography
+      details: People, Children, Nature, Architecture, Bands
+      fa-icon: fa-camera-retro
+    - name: Renewable Energy
+      details: Keeping out planet alive is essential for us and our children.
+      fa-icon: fa-globe 
+    - name: Family
+      details: The love and center of my life
+      fa-icon: fa-heart
+
+
 
 # Postal address (add as many lines as necessary)
 address:

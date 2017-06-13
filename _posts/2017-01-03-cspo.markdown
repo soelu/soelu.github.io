@@ -1,0 +1,15 @@
+---
+modal-id: 3
+date: 2016-12-08
+title: Certified Scrum Product Owner Training
+role: Trainee
+img: cspo.png
+thumbnail: cspo-thumbnail.png
+alt: CSPO Certificate
+project-date: December 2016
+client: Scrum Alliance
+client-link: https://www.scrumalliance.org/community/profile/slubitz
+category: Scrum
+description: I took part in a CSPO Training held by the one and only Roman Pichler.
+
+---
