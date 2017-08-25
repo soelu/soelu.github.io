@@ -8,7 +8,7 @@
                 </div>
             </div>
             {% for skill in site.skills.product %}
-                {% cycle 'add row' : '<div class="row text-center">', nil, nil %}
+                {% cycle 'add row' : '<div class="row text-center">', '', '' %}
 
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -19,7 +19,7 @@
                     <p class="text-muted">{{ skill.details }}</p>
                 </div>
 
-                {% cycle 'end row' : nil, nil, '</div>' %}
+                {% cycle 'end row' : '', '', '</div>' %}
 
             {% endfor %}
             <div class="row row-header">
@@ -29,7 +29,7 @@
                 </div>
             </div>
             {% for skill in site.skills.tech %}
-                {% cycle 'add row' : '<div class="row text-center">', nil, nil %}
+                {% cycle 'add row' : '<div class="row text-center">', '', '' %}
 
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -40,7 +40,7 @@
                     <p class="text-muted">{{ skill.details }}</p>
                 </div>
 
-                {% cycle 'end row' : nil, nil, '</div>' %}
+                {% cycle 'end row' : '', '', '</div>' %}
 
             {% endfor %}
             <div class="row row-header">
@@ -50,7 +50,7 @@
                 </div>
             </div>
             {% for skill in site.skills.interest %}
-                {% cycle 'add row' : '<div class="row text-center">', nil, nil %}
+                {% cycle 'add row' : '<div class="row text-center">', '', '' %}
 
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -61,7 +61,7 @@
                     <p class="text-muted">{{ skill.details }}</p>
                 </div>
 
-                {% cycle 'end row' : nil, nil, '</div>' %}
+                {% cycle 'end row' : '', '', '</div>' %}
 
             {% endfor %}
         </div>
