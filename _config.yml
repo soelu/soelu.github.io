@@ -28,16 +28,28 @@ people:
 social:
   - title: twitter
     url: https://twitter.com/soelu
+    fa-icon: fa-twitter
+    fa-icon-style: fab
   - title: stack-overflow
     url: https://stackoverflow.com/users/767422/soelu
+    fa-icon: fa-stack-overflow
+    fa-icon-style: fab
   - title: linkedin
     url: https://www.linkedin.com/in/soeren-lubitz-8040644b/
+    fa-icon: fa-linkedin
+    fa-icon-style: fab
   - title: github
     url: http://github.com/soelu
+    fa-icon: fa-github
+    fa-icon-style: fab
   - title: 500px
     url: https://500px.com/soelu
+    fa-icon: fa-500px
+    fa-icon-style: fab
   - title: envelope
     url: mailto:soeren.lubitz@gmail.com
+    fa-icon: fa-envelope
+    fa-icon-style: fas
 
 skills:
   vals:
