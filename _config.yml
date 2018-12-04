@@ -40,6 +40,19 @@ social:
     url: mailto:soeren.lubitz@gmail.com
 
 skills:
+  vals:
+    - name: Trust
+      details: I value and embrace trust every day and see it as one of the most important value within a team.
+      fa-icon: fa-user-shield
+      fa-icon-style: fas
+    - name: Honesty
+      details: Key for most interactions is honesty as it fortfies trust and partnership.
+      fa-icon: fa-balance-scale
+      fa-icon-style: fas
+    - name: Partnership
+      details: When working together in a team every success and failure is owned by the whole team and not individuals.
+      fa-icon: fa-handshake
+      fa-icon-style: fas
   product:
     - name: Product Ownership
       details: I cherish well made products and strive to create the best products possible. Involving the team and all stakeholders constantly and fully plays a big part for that success.
@@ -47,9 +60,11 @@ skills:
     - name: Agile Mindset
       details: The world is changing so fast, that in order to keep up, we need to adapt. Long planning and evaluation is simply not possible most of time, not the less because information needed is not available. Try-Fail-Learn.
       fa-icon: fa-trello
+      fa-icon-style: fab
     - name: Practical Thinking
       details: It is always good the take a step back and try to look at a challenge at hand from a new perspective.  Often, this leads to a practical and fitting solution.
-      fa-icon: fa-check-square-o
+      fa-icon: fa-check-square
+      fa-icon-style: fas
   tech:
     - name: Back-end Development
       details: Java, Node.js, PHP, Ruby on Rails

@@ -1,0 +1,15 @@
+---
+modal-id: 6
+date: 2018-10-01
+title: E.ON AURA Manager Migration
+role: Project Lead
+img: aura.png
+thumbnail: aura-thumbnail.png
+alt: AURA Manager UI
+project-date: 2018
+client: E.ON
+client-link: https://www.eon-solar.de
+category: Kiwigrid
+description: Migration and integration of the complete E.ON Aura product landscape into the Kiwigrid HEMS products including an integration to E.ONs CRM and IAM systems.
+
+---

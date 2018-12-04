@@ -3,8 +3,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Values</h2>
+                    <h3 class="section-subheading text-muted">These are the foundation of my actions</h3>
+                </div>
+            </div>
+            {% for skill in site.skills.vals %}
+                {% cycle 'add row' : '<div class="row text-center">', '', '' %}
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="{{skill.fa-icon-style | default: 'fa'}} {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">{{ skill.name }}</h4>
+                    <p class="text-muted">{{ skill.details }}</p>
+                </div>
+
+                {% cycle 'end row' : '', '', '</div>' %}
+
+            {% endfor %}
+            <div class="row row-header">
+                <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Product Skills</h2>
-                    <h3 class="section-subheading text-muted">These help me to motivate the team and create a great product</h3>
+                    <h3 class="section-subheading text-muted">These help me to create a great product</h3>
                 </div>
             </div>
             {% for skill in site.skills.product %}
@@ -13,7 +34,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
+                        <i class="{{skill.fa-icon-style | default: 'fa'}} {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">{{ skill.name }}</h4>
                     <p class="text-muted">{{ skill.details }}</p>
@@ -34,7 +55,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
+                        <i class="{{skill.fa-icon-style | default: 'fa'}} {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">{{ skill.name }}</h4>
                     <p class="text-muted">{{ skill.details }}</p>
@@ -55,7 +76,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
+                        <i class="{{skill.fa-icon-style | default: 'fa'}} {{skill.fa-icon}} fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">{{ skill.name }}</h4>
                     <p class="text-muted">{{ skill.details }}</p>
