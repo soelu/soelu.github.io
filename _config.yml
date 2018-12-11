@@ -12,17 +12,17 @@ people:
 - name: Sören Lubitz
   pic: 1
   position: "We are all in this together."
-  social:
-    - title: twitter
-      url: https://twitter.com/soelu
-    - title: stack-overflow
-      url: https://stackoverflow.com/users/767422/soelu
-    - title: linkedin
-      url: https://www.linkedin.com/in/soeren-lubitz-8040644b/
-    - title: github
-      url: http://github.com/soelu
-    - title: 500px
-      url: https://500px.com/soelu
+  # social:
+  #   - title: twitter
+  #     url: https://twitter.com/soelu
+  #   - title: stack-overflow
+  #     url: https://stackoverflow.com/users/767422/soelu
+  #   - title: linkedin
+  #     url: https://www.linkedin.com/in/soeren-lubitz-8040644b/
+  #   - title: github
+  #     url: http://github.com/soelu
+  #   - title: 500px
+  #     url: https://500px.com/soelu
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -76,7 +76,7 @@ skills:
     - name: Practical Thinking
       details: It is always good the take a step back and try to look at a challenge at hand from a new perspective.  Often, this leads to a practical and fitting solution.
       fa-icon: fa-check-square
-      fa-icon-style: fast
+      fa-icon-style: fas
   tech:
     - name: Back-end Development
       details: Java, Node.js, PHP, Ruby on Rails
