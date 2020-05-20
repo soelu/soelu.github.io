@@ -65,9 +65,9 @@ skills:
       details: When working together in a team every success and failure is owned by the whole team and not individuals.
       fa-icon: fa-handshake
       fa-icon-style: fas
-  product:
-    - name: Product Ownership
-      details: I cherish well made products and strive to create the best products possible. Involving the team and all stakeholders constantly and fully plays a big part for that success.
+  project:
+    - name: Project Management
+      details: I cherish well running projects and strive to have happy customers as much as possible. Involving the team and all stakeholders constantly and fully plays a big part for that success.
       fa-icon: fa-cube
     - name: Agile Mindset
       details: The world is changing so fast, that in order to keep up, we need to adapt. Long planning and evaluation is simply not possible most of time, not the less because information needed is not available. Try-Fail-Learn.
@@ -97,9 +97,9 @@ skills:
       details: Javascript, AngularJS, React (Native), HTML5, CSS, Bootstrap
       fa-icon: fa-cog
   interest:
-    - name: Photography
-      details: People, Children, Nature, Architecture, Bands
-      fa-icon: fa-camera-retro
+    - name: Homebrewing
+      details: Brewing a homemade beer from time to time.
+      fa-icon: fa-beer
     - name: Renewable Energy
       details: Keeping our planet alive is essential for us and our children.
       fa-icon: fa-globe 
